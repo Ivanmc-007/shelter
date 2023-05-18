@@ -1,3 +1,7 @@
+body {
+    background: #E5E5E5;
+}
+
 .container {
     max-width: 80rem;
     margin: 0 auto;
@@ -39,6 +43,7 @@
     align-items: center;
     grid-column-gap: 2.18rem;
 }
+
 /*--------------------*/
 .start_screen {
     display: flex;
@@ -50,7 +55,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    grid-row-gap: 42px ;
+    grid-row-gap: 42px;
 }
 
 .start_screen__heading {
@@ -84,6 +89,7 @@
     letter-spacing: 0.06em;
     color: #292929;
     border-radius: 100px;
+    border: none;
 
 }
 
@@ -96,4 +102,52 @@
     max-width: 100%;
     max-height: 100%;
 }
+
 /*--------------------*/
+.about {
+    background: #FFFFFF;
+    padding-top: 5rem;
+    padding-bottom: 6.25rem;
+    display: grid;
+    grid-template-columns: 215fr 300fr 120fr 430fr 215fr;
+}
+
+.about__img {
+    grid-column: 2/3;
+    max-width: 18.75rem;
+}
+
+.about__img img {
+    max-width: 100%;
+}
+
+.about__content {
+    max-width: 26.875rem;
+    grid-column: 4/5;
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 25px;
+    justify-content: center;
+}
+
+.about__heading {
+    font-family: 'Georgia', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+}
+
+.about__heading span {
+    white-space: nowrap; /* Запрещаем перенос текста */
+}
+
+.about__subheading {
+    font-family: 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #4C4C4C;
+}
