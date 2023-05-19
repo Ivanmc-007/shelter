@@ -40,8 +40,10 @@ body {
     font-size: 0.9375rem;
     color: #CDCDCD;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     grid-column-gap: 2.18rem;
+    justify-content: end;
 }
 
 /*--------------------*/
@@ -49,6 +51,8 @@ body {
     display: flex;
     margin-top: 5.8rem;
     grid-gap: 42px 42px;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .start_screen__content {
