@@ -289,7 +289,7 @@ body {
 
 .help__list_item {
     width: 166px;
-    /*border: 1px solid #5B483A;*/
+    /*border: 1px solid #5B483A;*/ /*для отладки*/
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -309,3 +309,91 @@ body {
     color: #545454;
 }
 /*--------------------*/
+.donation {
+    padding-top: 91px;
+    padding-bottom: 110px;
+    background: #F6F6F6;
+    display: flex;
+    justify-content: center;
+}
+
+.donation__container {
+    display: flex;
+    grid-gap: 30px;
+    min-height: 282px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.donation__img {
+    max-width: 505px;
+}
+
+.donation__img > img {
+    max-width: 100%;
+}
+
+.donation__content {
+    max-width: 380px;
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 20px;
+}
+
+.donation__heading {
+    font-family: 'Georgia', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+    max-width: 300px;
+}
+
+.donation__subheading {
+    font-family: 'Georgia', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.donation__credit_card {
+    background: #F1CDB3;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    grid-column-gap: 15px;
+}
+
+.donation__card_icon {
+    max-width: 30px;
+}
+
+.donation__card_icon > img {
+    max-width: 100%;
+}
+
+.donation__card_text {
+    font-family: 'Georgia', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.donation__text_info {
+    font-family: 'Arial', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #B2B2B2;
+}
