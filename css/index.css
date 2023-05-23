@@ -65,6 +65,8 @@ body {
 .start_screen__heading {
     font-family: 'Georgia', serif;
     font-size: 2.75rem;
+    font-style: normal;
+    font-weight: 400;
     line-height: 130%;
     color: #FFFFFF;
     display: inline-block;
@@ -101,6 +103,26 @@ body {
     max-height: 45.5rem;
 }
 
+@media (max-width: 768px) {
+    .start_screen {
+        grid-gap: 100px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .start_screen__img {
+        max-width: 569px;
+        align-self: end;
+        /*margin-left: 130px;*/
+    }
+
+
+
+    .start_screen__button {
+        align-self: center;
+    }
+}
+
 .start_screen__img img {
     max-width: 100%;
     max-height: 100%;
@@ -119,6 +141,16 @@ body {
     align-items: center;
     flex-wrap: wrap;
     grid-column-gap: 9.375%;
+}
+
+@media (max-width: 768px) {
+    .about__container {
+        flex-wrap: wrap-reverse;
+    }
+
+    .about__subheading:last-child {
+        margin-bottom: 80px;
+    }
 }
 
 .about__img {
@@ -205,6 +237,8 @@ body {
     flex: 1 1 61.875rem;
     flex-wrap: wrap;
     grid-gap: 1rem 1rem;
+    max-height: 444px;
+    overflow: hidden;
 }
 
 .pets__card {
@@ -332,6 +366,13 @@ body {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    .donation__container {
+        flex-wrap: wrap-reverse;
+        grid-gap: 60px;
+    }
 }
 
 .donation__img {
