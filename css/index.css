@@ -665,6 +665,8 @@ body {
 
 .donation__card_icon {
     max-width: 30px;
+    display: flex;
+    align-content: center;
 }
 
 .donation__card_icon > img {
@@ -710,6 +712,10 @@ body {
 
     .donation__subheading {
         text-align: center;
+    }
+
+    .donation__credit_card {
+        grid-column-gap: 12px;
     }
 
     .donation__card_text {
@@ -826,7 +832,55 @@ body {
     color: #F1CDB3;
 }
 
-.footer__img > img {
+.footer__img {
     max-width: 302px;
+}
+
+.footer__img > img {
+    max-width: 100%;
+}
+
+@media (max-width: 540px) {
+    .footer {
+        padding-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .footer__container {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .footer__contacts {
+        align-items: center;
+        grid-row-gap: 40px;
+    }
+
+    .footer__contacts_title {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .footer__locations {
+        grid-row-gap: 40px;
+    }
+
+    .footer__locations_title {
+        text-align: center;
+        font-size: 25px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .footer__img {
+        width: 260px;
+    }
+
+    .footer__img > img {
+        max-width: 100%;
+    }
+
+
 }
 
