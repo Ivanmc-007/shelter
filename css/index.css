@@ -690,6 +690,42 @@ body {
     color: #B2B2B2;
 }
 
+@media (max-width: 540px) {
+    .donation {
+        padding: 42px 20px;
+    }
+
+    .donation__container {
+        grid-gap: 42px;
+    }
+
+    .donation__content {
+        align-items: center;
+    }
+
+    .donation__heading {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .donation__subheading {
+        text-align: center;
+    }
+
+    .donation__card_text {
+        font-size: 15px;
+    }
+
+    .donation__text_info {
+        text-align: justify;
+    }
+
+    .donation__img {
+        max-width: 260px;
+    }
+
+}
+/*--------------------*/
 .footer {
     background: radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
     padding-top: 40px;
